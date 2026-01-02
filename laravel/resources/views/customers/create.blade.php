@@ -7,5 +7,9 @@
         <option value="male">Male</option>
         <option value="female">Female</option>
     </select>
+    <select name="status" placeholder="Status">
+        <option value="active">Active</option>
+        <option value="inactive">Inactive</option>
+    </select>
     <button type="submit">Create</button>
 </form>

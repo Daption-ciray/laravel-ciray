@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('surname');
             $table->integer('birthyear');
             $table->enum('gender', ['male', 'female']);
+            $table->enum('status', ['active', 'inactive']);
             $table->timestamps();
         });
     }
