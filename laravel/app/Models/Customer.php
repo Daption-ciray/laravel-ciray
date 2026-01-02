@@ -8,6 +8,7 @@ use App\Models\Meal;
 
 class Customer extends Model
 {
+    protected $guarded = ['id'];
     public function activities()
     {
         return $this->hasMany(Activity::class);
